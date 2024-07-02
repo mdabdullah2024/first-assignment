@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #efefef;
+}
+
+.profile-card {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-color: #edfedf;
+}
+.profile-picture img{
+    width: 100%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.profile-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-title {
+    font-size: 0.9rem;
+    color: #888888;
+    margin-bottom: 15px;
+}
+
+.profile-description {
+    font-size: 0.85rem;
+    color: #333333;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 0.8rem;
+    color: #555555;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #ff6b81;
+}
+.contact-info p{
+    display: inline-block;
+    margin-right: 10px;
+}
+.profile-follow{
+    margin: 0 auto;
+}
+.profile-follow a{
+    background-color: #eee; /* Green */
+    border: 1px solid #111;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+    width: 80px;
+    text-align: center;
+}
+.profile-follow .follow{
+    margin-right: 15px;
+}
+.profile-follow .hire-me{
+    margin-left: 15px;
+}
+.profile-follow a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .5s;
+}
+.overview{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #333;
+    font-size: 16px;
+}
+.overview .child p:last-child{
+    margin-top: -12px;
+    font-weight: bold;
+    color: #000;
+}
